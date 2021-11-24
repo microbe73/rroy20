@@ -2,5 +2,9 @@
 SoftDev
 K<19> -- <Using an api to display images and text on a website>
 <2021>-<11>-<24>
-time spent: .8 (had to find out how to run on the mac)
+time spent: 1 (had to find out how to run on the mac)
 Comments:
+Going from link to json to dictionary is very simple and quick
+
+Concerns:
+Installing certifi should be the last time it has to be done hopefully
