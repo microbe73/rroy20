@@ -4,7 +4,7 @@ import json
 app = Flask(__name__) 
 @app.route('/')
 def display():
-    req = urllib.request.urlopen('https://api.nasa.gov/planetary/apod?api_key=pJkgjfYApMvTrcMw0O7hdO7Chooqu9b4jcuDu2zC')
+    req = urllib.request.urlopen('https://api.nasa.gov/planetary/apod?api_key=pJkgjfYApMvTrcMw0O7hdO7Chooqu9b4jcuDu2zC') #returns json
     text = json.load(req)
     #for i in text:
         #print(json.load(r)[i])
