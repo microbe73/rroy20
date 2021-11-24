@@ -1,3 +1,8 @@
+#<Rayat> <Roy> as part of team go stop
+#SoftDev
+#K<19> -- <Using an api to display images and text on a website>
+#<2021>-<11>-<24>
+#time spent: 1 (had to find out how to run on the mac)
 import urllib
 from flask import Flask,render_template
 import json
