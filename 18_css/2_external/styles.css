@@ -1,0 +1,38 @@
+/* Rayat Roy
+       SoftDev pd1
+       K18 -- CSS basics
+       2021-11-23
+
+   WORK FILE for CSS  
+*/
+    body {
+      background-color: grey;
+    }
+    .header h1 {
+      color: white;
+      background-color:darkgray;
+      margin-left:50px; 
+      margin-block-end:0px;
+    }
+    .txt1 {
+      display: inline-block;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+    }
+    .header h2 {
+      margin-left: 50px;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    .copyright {
+      text-align: right;
+      margin-right: 720px;
+    }
+    .txt2{
+      display: inline-block;
+      margin-left: 100px;
+    }
