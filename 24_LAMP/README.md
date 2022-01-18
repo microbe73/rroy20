@@ -10,9 +10,9 @@ A digital ocean account, ideally linked to your github account
 An available ssh key, obtainable with the command `ssh keygen`
 
 
-1. With your public key copied, add it on Digital Ocean to your list of SSH keys * https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-account/
-2. 
-3. 
+1. With your public key copied, add it on Digital Ocean to your list of SSH keys https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-account/
+2. Create a droplet of the 5 dollar plan variety, being sure to add your ssh key on the creation page
+3. To initially access your droplet, enter `ssh root@droplet_ip`
 4. Step, with
     ```
     generic code block or terminal command
