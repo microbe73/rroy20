@@ -1,8 +1,8 @@
-<Frist> <Lsat>
+Rayat<Roy
 SoftDev
-K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
-<yyyy>-<mm>-<dd>
-time spent: <elapsed time in hours, rounded to nearest tenth>
+K24 -- Cold LAMPin w Flav/Virtual machines with digital ocean/Setting them up with users, linux, apache, sqlite, and python
+2021-01-18
+time spent: 1
 
 My initial attempt to create a droplet was unsuccessful after realizing that when I re-entered the system via ssh, I entered the root and installed apache, python, and sqlite from there rather than from the user account.
 Would this have been a fatal error? Running the commands via sudo may have done the same thing
