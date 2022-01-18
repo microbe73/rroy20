@@ -1,3 +1,10 @@
+<Frist> <Lsat>
+SoftDev
+K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
+<yyyy>-<mm>-<dd>
+time spent: <elapsed time in hours, rounded to nearest tenth>
+
 My initial attempt to create a droplet was unsuccessful after realizing that when I re-entered the system via ssh, I entered the root and installed apache, python, and sqlite from there rather than from the user account.
 Would this have been a fatal error? Running the commands via sudo may have done the same thing
-Other than that, I found few issues.
+Editing the file to remove root login was also difficult
+I was unsure of how to open the file, but I was able to use vim to open it and insert mode allowed me to make the edit, although it did give a warning about changing a read-only file.
