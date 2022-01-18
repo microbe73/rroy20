@@ -1,1 +1,3 @@
-
+My initial attempt to create a droplet was unsuccessful after realizing that when I re-entered the system via ssh, I entered the root and installed apache, python, and sqlite from there rather than from the user account.
+Would this have been a fatal error? Running the commands via sudo may have done the same thing
+Other than that, I found few issues.
