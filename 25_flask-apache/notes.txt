@@ -4,4 +4,6 @@ K25 -- Apache, Jump on it/Creating a flask app served by apache
 2022-01-20
 time spent: 1.5
 Being careful with versions is critical.
-Error log can be accessed with `sudo cat /var/log/apache2/error.log`
+Error log can be accessed with sudo cat /var/log/apache2/error.log
+The error log is very useful for any internal server error displays on the webpage, because that is very vague
+Re-provisination is not always necessary.
