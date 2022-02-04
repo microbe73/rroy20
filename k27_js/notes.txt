@@ -16,3 +16,4 @@ QCC
 * Whuh now?
 =================================================================
 
+var fxnName = function(args) wasn't liked by firefox it gave the error that the { was missing even though it was not
