@@ -18,7 +18,7 @@
    (delete this block comment once you are done)
 */
 
-// Team Phantom Tollbooth :: Rayat Roy, Sophie Liu
+// Team Phantom Tollbooth :: Rayat Roy, Tina Nguyen
 // SoftDev pd0
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2022-02-08t
