@@ -83,23 +83,7 @@ var stripe = function() {
     }
   }
 };
-/*
-document.getElementById(<ID>)
-document.getElementsByClassName(<class>)
-<button id="b">
-var a = document.getElementById("b")
-a.addEventListener(<EVENT>,<FUNCTION>)
-'click',fxnname
-document.createElement(<HTML TAG NAME>)
-element.setAttribute(<NAME>,<VALUE>)
-element.getAttribute(<NAME>)
-*/
-var fxn = function() {
-  let c = document.createElement('p');
-  let a = fib(5);
-  c.innerHTML = '50';
-  return c;
-}
+
 var fib = (n) => {
   if(n == 1){
     return 1;
