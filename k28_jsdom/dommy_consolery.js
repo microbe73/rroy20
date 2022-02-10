@@ -18,10 +18,10 @@
    (delete this block comment once you are done)
 */
 
-// Team Phantom Tollbooth :: Rayat Roy, Tina Nguyen
-// SoftDev pd0
+// Team Phantom Tollbooth :: Rayat Roy, Tina Nguyen, Austin Ngan
+// SoftDev pd2
 // K28 -- Getting more comfortable with the dev console and the DOM
-// 2022-02-08t
+// 2022-02-08
 // --------------------------------------------------
 
 
