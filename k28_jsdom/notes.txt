@@ -1,7 +1,13 @@
-     Team Phantom Tollbooth :: Rayat Roy, Tina Nguyen, Austin Ngan
-     SoftDev pd2
-     K28 -- Manipulating the DOM
-     2022-02-08
-   --------------------------------------------------
-   Function info:
-   
+Team Phantom Tollbooth :: Rayat Roy, Tina Nguyen, Austin Ngan
+SoftDev pd2
+K28 -- Manipulating the DOM
+2022-02-08
+--------------------------------------------------
+Function info:
+*Can access o and subsequent attributes from terminal with o.attribute
+*addItem added the text at the bottom of the list
+*removeItem removed the item at the given index
+*red made everything red
+*stripe made things alternate red and blue
+
+Calling stripe and red multiple times had inconsistent results with things that were already colored. I assume this occured because we simply add to html tags, so the tag becomes something like "red blue blue red" and it just stays blue or red.
