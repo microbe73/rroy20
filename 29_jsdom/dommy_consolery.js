@@ -132,21 +132,21 @@ console.log(b1)
 var r = document.getElementById('result');
 
 let fib_button = function(){
-  r.innerHTML = fib(8);
+  r.innerHTML = fib(Math.floor(Math.random() * (8 - 1) + 1));
 };
 b1.addEventListener('click', fib_button);
 
 let b2 = document.getElementById('b2');
 console.log(b2)
 let fact_button = function(){
-  r.innerHTML = fact(4);
+  r.innerHTML = fact(Math.floor(Math.random() * (8 - 1) + 1));
 };
 b2.addEventListener('click', fact_button);
 
 let b3 = document.getElementById('b3');
 console.log(b3)
 let gcd_button = function(){
-  r.innerHTML = gcd(27,72);
+  r.innerHTML = gcd(Math.floor(Math.random() * (800 - 1) + 1),Math.floor(Math.random() * (800 - 1) + 1));
 };
 b3.addEventListener('click', gcd_button);
 
