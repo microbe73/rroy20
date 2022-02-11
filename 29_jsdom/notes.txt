@@ -1,1 +1,9 @@
+Team Phantom Tollbooth :: Rayat Roy, Sophie Liu
+SoftDev pd2
+K29 -- Manipulating the DOM part 2
+2022-02-11t
 
+Questions
+*If we have to pass the function by name, without arguments (thanks wat) as a parameter for eventListener, how can we make it so we can run argument functions, or is that not allowed?
+Comments
+*Console.log is very helpful for making sure variables are the right thing, due to js's looseness.
