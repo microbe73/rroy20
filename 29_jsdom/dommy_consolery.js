@@ -19,9 +19,9 @@
 */
 
 // Team Phantom Tollbooth :: Rayat Roy, Sophie Liu
-// SoftDev pd0
-// K28 -- Getting more comfortable with the dev console and the DOM
-// 2022-02-08t
+// SoftDev pd2
+// K29 -- Getting more comfortable with the dev console and the DOM
+// 2022-02-11t
 // --------------------------------------------------
 
 
