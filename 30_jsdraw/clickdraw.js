@@ -29,37 +29,37 @@ var mode = "rect";
 
   var toggleMode = (e) => {
   console.log("toggling...");
-  if (mode = "rect"){
+  b = document.getElementById("buttonToggle");
+  if (mode === "rect"){
   	mode = "circle";
-  	b = getElementbyID("buttonToggle");
   	console.log(b);
-  	getElementbyID("buttonToggle").innerHTML = "circle";
+  	b.innerHTML = "circle";
   }
   else {
+    console.log(b);
   	mode = "rect";
-  	getElementbyID("buttonToggle").innerHTML = "rect"; //the button will show rect now
+  	b.innerHTML = "rect"; //the button will show rect now
   }
   }
 var drawRect = function(e) {
-  var mouseX = 600 - c.offsetX; //x and y coordinates of the mouse hopefully
-  var mouseY = 600 - c.offsetY;
-  ctx.fillRect(mouseX, mouseY, 50, 90);
-  console.log("mouseclick registered at ", mouseX, mouseY);
+
+  ctx.fillRect(e.offsetX, e.offsetY, 50, 90);
 }
 
 var drawCircle = (e) => {
-	ctx.ellipse(ctx.offsetX,ctx.offsetY,20,20,0,0,2 * Math.PI);
+  ctx.beginPath();
+	ctx.arc(e.offsetX,e.offsetY,30,0,2 * Math.PI);
   ctx.fill();
-  console.log("mouseclick registered at ", mouseX, mouseY);
+  ctx.stroke();
 
 }
 
 var draw = (e) => {
-  if(mode = "rect"){
-    drawRect();
+  if(mode === "rect"){
+    drawRect(e);
   }
   else{
-    drawCircle();
+    drawCircle(e);
   }
 }
 
