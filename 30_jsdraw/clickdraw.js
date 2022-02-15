@@ -19,7 +19,8 @@ clientWidth
 clientHeight
 */
 
-var c = getElementbyID("slate");
+
+var c = document.getElementById("slate");
 
 var ctx = c.getContext("2d");
 
@@ -36,31 +37,38 @@ var mode = "rect";
   }
   else {
   	mode = "rect";
-  	getElementbyID("buttonToggle").innerHTML = "rect";
+  	getElementbyID("buttonToggle").innerHTML = "rect"; //the button will show rect now
   }
   }
 var drawRect = function(e) {
-  var mouseX = offsetX;
-  var mouseY = offsetY;
-  console.log("mouseclick registered at ", mouesX, mouseY);
+  var mouseX = 600 - c.offsetX; //x and y coordinates of the mouse hopefully
+  var mouseY = 600 - c.offsetY;
+  ctx.fillRect(mouseX, mouseY, 50, 90);
+  console.log("mouseclick registered at ", mouseX, mouseY);
 }
 
 var drawCircle = (e) => {
-	canvas.arc(offsetX,offsetY,5);
-  	console.log("mouseclick registered at ", mouseX, mouseY);
+	ctx.ellipse(ctx.offsetX,ctx.offsetY,20,20,0,0,2 * Math.PI);
+  ctx.fill();
+  console.log("mouseclick registered at ", mouseX, mouseY);
 
 }
 
 var draw = (e) => {
-
+  if(mode = "rect"){
+    drawRect();
+  }
+  else{
+    drawCircle();
+  }
 }
 
 var wipeCanvas = () => {
-
+  ctx.clearRect(0,0,c.width,c.height);
 }
 
 c.addEventListener("click", draw);
-varbToggler = document. ;
-bToggler ;
-var clearB = ;
-clearB.;Í
+var bToggler = document.getElementById("buttonToggle");
+bToggler.addEventListener("click", toggleMode);
+var clearB = document.getElementById("buttonClear");
+clearB.addEventListener("click", wipeCanvas);
