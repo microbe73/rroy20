@@ -1,3 +1,9 @@
+/* Rayat Roy, Tina Nguyen
+		SoftDev pd2
+		K31 -- Canvas based JS animation
+		2022-02-16w
+		The javascript portion
+*/
 var c = document.getElementById("slate");
 var dotButton = document.getElementById("start");
 var stopButton = document.getElementById("stop");
