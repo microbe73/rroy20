@@ -47,7 +47,7 @@ var drawDot = () => {
     radius = radius - 1;
   }
   //console.log("radius: "+ radius)
-  requestID = window.requestAnimationFrame(drawDot); //this gets the request ID for the cancelling frame from above. I don't entirely get it tho.
+  requestID = window.requestAnimationFrame(drawDot); 
   //draws the circle
   ctx.beginPath();
   ctx.arc(300,300,radius,0,2 * Math.PI);
@@ -58,12 +58,30 @@ var drawDot = () => {
 //var stopIt = function() {
 var dvdx;
 var dvdy;
-var dx;
-var dy;
+var dx = 2;
+var dy = 2;
 var dvd = () => {
   clear();
   window.cancelAnimationFrame(requestID);
-
+  dvdx += dx;
+  dvdy += dy;
+  if(dvdx <= 0 || dvdx >= c.width - 60) {
+    dx = dx * -1;
+  }
+  if (dvdy <= 0 || dvdy >= c.height - 40) {
+    dy = dy * -1;
+  }
+  console.log(dvdx);
+  console.log(dvdy);
+  requestID = window.requestAnimationFrame(dvd);
+  var img = new Image();
+  img.src = 'logo_dvd.jpg'
+  ctx.drawImage(img,dvdx,dvdy,60,40);
+}
+var dvd_helper = () => {
+  dvdx = Math.floor(Math.random()*300);
+  dvdy = Math.floor(Math.random()*300);
+  dvd();
 }
 var stopIt = () => {
   console.log("stopIt invoked...")
@@ -74,4 +92,4 @@ var stopIt = () => {
 
 dotButton.addEventListener( "click", drawDot );
 stopButton.addEventListener( "click",  stopIt );
-dvdButton.addEventListener
+dvdButton.addEventListener("click", dvd_helper);
