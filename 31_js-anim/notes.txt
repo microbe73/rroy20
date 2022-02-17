@@ -1,1 +1,8 @@
-
+Rayat Roy
+SoftDev pd2
+K31 -- Paint Paint Paint...
+2022-2-16
+time spent: 1.5 (in class mostly)
+*I never ended up with the acceleration error, and am not particularly sure how I avoided it
+*wat: i can cancel an animation frame with the input being an defined but unassigned variable
+*
